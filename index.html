@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--  Styles  -->
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="swiper.css" rel="stylesheet">
     <!--  Scripts    -->
@@ -21,7 +22,7 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-            <a class="navbar-brand mx-auto" href="#">Билет<span>Авто</span></a>
+            <a class="navbar-brand mx-auto" href="/"><span>Оператор Транспортных систем</span></a>
             <div class="collapse navbar-collapse" id="navbarCollapse1">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"> <a class="nav-link" href="#myCarousel">Главная</a> </li>
@@ -34,24 +35,103 @@
         </div>
     </nav>
 
-    <!-- Swiper Silder
+    <!-- Header
     ================================================== -->
-    <!-- Slider main container -->
-    <div class="swiper-container main-slider" id="myCarousel">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide slider-bg-position" style="background:url('http://grafreez.com/wp-content/temp_demos/burnout/img/1.jpg')" data-hash="slide1">
-                <h2>Тут афигенски крутой слоган!</h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('http://grafreez.com/wp-content/temp_demos/burnout/img/3.jpg')" data-hash="slide2">
-                <h2>И тут тоже! Уписаться просто!!!</h2>
+    <!--
+    
+    <header class="bg-position" style="background:url('http://grafreez.com/wp-content/temp_demos/burnout/img/1.jpg')">
+        <div class="header-content">
+            <div class="container header-connect">
+                <div class="row">
+                    <div class="col-md-4 text-center connect-elem">
+                        <a href="tel: +79085977000"><i class="fa fa-phone"></i>+7 (908) 597 70 00</a>
+                    </div>
+                    <div class="col-md-4 text-center connect-elem">
+                        <a href="mailto: operatorts@mail.ru"><i class="fa fa-envelope"></i>operatorts@mail.ru
+                    </a>
+                    </div>
+                    <div class="col-md-4 text-center connect-elem">
+                        <a href="#"><i class="fa fa-envelope-open"></i>Обратная связь</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
-        <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
-    </div>
+    </header>
+-->
+    <section class="banner">
+        <div class="container">
+            <h1 class="h1">Электронный билет<br class="visible-xss"> для <br class="hidden-xss"> пассажирского транспорта</h1>
+            <ul class="row preim">
+                <li>
+                    <div class="content">
+                        <div class="box-table">
+                            <div class="cell">
+                                Обучение
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="box-table">
+                            <div class="cell">
+                                Внедрение
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="box-table">
+                            <div class="cell">
+                                Сопровождение
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="row preim payment">
+                <li>
+                    <div class="content">
+                        <div class="box-table">
+                            <div class="cell">
+                                <img src="/templates/index/img/visa.png">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="box-table">
+                            <div class="cell">
+                                <img src="/templates/index/img/mastercard.png">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="box-table">
+                            <div class="cell">
+                                <img src="/templates/index/img/mir.png">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="item"><img src="/templates/index/img/telephone.png" alt="telephone"><a href="tel:+7(495)7887922">+7 (495) 788 79 22</a></div>
+                    <div class="item"><img src="/templates/index/img/envelope.png" alt="envelope"><a href="mailto:info@umarsh.ru">info@umarsh.ru</a>
+                    </div>
+                    <div class="item call"><img src="/templates/index/img/phone.png" alt="phone"><a data-toggle="modal" href="#myModalCall">Обратная связь</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Benefits
     ================================================== -->
@@ -60,30 +140,19 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading">
-                        <h2><small>Benefits of Exercise</small>To enjoy the glow of good health, you must exercise</h2>
+                        <h2>Оператор Транспортных Сервисов</h2>
+                    </div>
+                    <div class="text-justify">
+                        <p>Наша компания предлагает внедрение систем автоматизации оплаты проезда для предприятий пассажирского транспорта в вашем городе, регионе.</p>
+                        <p>Внедрение системы оплаты позволит учесть интересы перевозчиков и пассажиров. В том числе и экономические. Использование банковских карт позволяет отказаться от проездных карт, соответственно терминалов и касс для их продаж. Также даёт возможность вести сто процентный учёт перевезённых пассажиров, в т. ч. и пользующихся льготами или оплачивающими проезд наличными.</p>
+                        <p>Для оплаты проезда используется переносной автономный терминал, который оснащён принтером для автоматической печати билетов, считывателем для работы с бесконтактными данными, также защитным чехлом и ремнём для удобного ношения кондуктором.</p>
+                        <p>Транспортные предприятия городов Улан-Удэ и Чита уже работают с нашей системой. В партнёрстве со Сбербанком России, мы занимаемся поэтапным подключением всех регионов России и ближнего зарубежья.</p>
+                    </div>
+                    <div class="text-center">
+                        <p>Никаких затрат на внедрение!</p>
+                        <p>Самая маленькая комиссия из существующих!</p>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h3>Better Sleep</h3>
-                            <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe.</p>
-                        </div>
-                        <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-leaf" aria-hidden="true"></i>
-                            <h3>Reduces Weight</h3>
-                            <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe.</p>
-                        </div>
-                        <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-leaf" aria-hidden="true"></i>
-                            <h3>Improves Mood</h3>
-                            <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe.</p>
-                        </div>
-                        <div class="col-md-6 text-sm-center service-block"> <i class="fa fa-bell" aria-hidden="true"></i>
-                            <h3>Boosts Energy</h3>
-                            <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4"> <img src="http://grafreez.com/wp-content/temp_demos/burnout/img/side-01.jpg" class="img-fluid" /> </div>
             </div>
             <!-- /.row -->
         </div>
@@ -95,16 +164,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <h2><small>Who We Are</small>About<br> Our Blog</h2>
+                    <h2><small>Внедрение системы автоматизации оплаты проезда включает в себя:</small></h2>
                 </div>
                 <div class="col-md-4">
-                    <p>To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind he can find the way to Enlightenment, and all wisdom and virtue will naturally come to him.</p>
-                    <p>Saving our planet, lifting people out of poverty, advancing economic growth... these are one and the same fight. We must connect the dots between climate change, water scarcity, energy shortages, global health, food security and women's empowerment. Solutions to one problem must be solutions for all.</p>
+                    <p>1. Предоставляем оборудование, программное обеспечение, запуск и техническую поддержку.</p>
+                    <p>2. Проводим регистрацию терминалов, личного кабинета и доавторизатора в процессинговом центре Банка.</p>
+                    <p>3. Осуществляем информационно-технологическое взаимодействие и авторизацию по операциям, совершенным на терминале.</p>
                 </div>
                 <div class="col-md-4">
-                    <p>Our greatest happiness does not depend on the condition of life in which chance has placed us, but is always the result of a good conscience, good health, occupation, and freedom in all just pursuits.</p>
-                    <p>Being in control of your life and having realistic expectations about your day-to-day challenges are the keys to stress management, which is perhaps the most important ingredient to living a happy, healthy and rewarding life.</p>
-                    <p><a href="#" class="btn btn-transparent-white btn-capsul">Explore More</a></p>
+                    <p>4. Обеспечиваем рекламно-информационными материалами, необходимыми для работы с Картами.</p>
+                    <p>5. Предоставляем возможность в системе для осуществления всех видов операций (оплата проезда, учет наличных, учет льготных категорий граждан) с использованием банковских карт.</p>
                 </div>
             </div>
         </div>
@@ -113,43 +182,28 @@
     <section class="action-sec">
         <div class="container">
             <div class="action-box text-center">
-                <h2>GET FULL FREE VERSION HERE </h2><a class="btn btn-success" href="http://grafreez.com/394/fitness-website-template/" target="_blank">Free Bootstrap Templates</a></div>
+                <h2>КАК С НАМИ СВЯЗАТЬСЯ:</h2>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <section id="footer">
         <div class="container">
-            <div class="row text-center text-xs-center text-sm-left text-md-left">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <h5>Quick links</h5>
-                    <ul class="list-unstyled quick-links">
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="javascript:void();">Главная</a></li>
+                        <li class="list-inline-item"><a href="javascript:void();">Контакты</a></li>
+                        <li class="list-inline-item"><a href="javascript:void();">Поддержка</a></li>
+                        <li class="list-inline-item"><a href="javascript:void();">О компании</a></li>
+                        <li class="list-inline-item"><a href="javascript:void();">Продукты</a></li>
                     </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <h5>Quick links</h5>
-                    <ul class="list-unstyled quick-links">
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <h5>Quick links</h5>
-                    <ul class="list-unstyled quick-links">
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-                        <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
-                    </ul>
+                    <p>Отслеживание маршрутов города Улан-Удэ <a href="//trans03.ru">тут</a></p>
+                    <p>Электронная оплата проезда Республики Бурятии <a href="//proezd03.ru"> тут</a></p>
+                    <p>Электронная оплата проезда Забайкальского края <a href="//proezd75.ru"> тут</a></p>
+                    <p>Автовокзалы Улан-Удэ <a href="//avtovokzal-ulan-ude.ru"> тут</a></p>
+                    <p>Copyright © 2018 Антариз. Все права защищены.</p>
                 </div>
             </div>
             <!--
@@ -166,13 +220,6 @@
                 <hr/>
             </div>
             -->
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                    <p>БилетАвто</p>
-                    <p class="h6">&copy Все права защищены</p>
-                </div>
-                <hr/>
-            </div>
         </div>
     </section>
     <!-- Footer -->
