@@ -179,7 +179,7 @@ header {
 
 .banner {
     height: 446px;
-    background: url('http://grafreez.com/wp-content/temp_demos/burnout/img/1.jpg') no-repeat center/cover;
+    background: url('https://pixabay.com/get/e830b40929f3063ed1584d05fb0938c9bd22ffd41cb3104495f7c07dae/mountain-road-1556177_1280.jpg') no-repeat center/cover;
     position: relative;
     padding: 60 px 0;
 }
@@ -361,7 +361,7 @@ header {
 /* ABOUT SECTION*/
 
 .about-sec {
-    background: url('http://grafreez.com/wp-content/temp_demos/burnout/img/para-01.jpg') no-repeat center center;
+    background: url('https://pixabay.com/get/ea34b0092df7053ed1534705fb0938c9bd22ffd41cb3104495f7c17fa1/auto-3116534_1920.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -412,9 +412,16 @@ header {
     font-size: 20px;
 }
 
+.form-block {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    /* background-color: #fff; 
+    border-radius: 5px; */
+    color: beige;
+}
+
 /* Footer */
 
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
 }
@@ -440,7 +447,7 @@ section .section-title {
 
 #footer a {
     color: #ffffff;
-    /*text-decoration: none !important;*/
+    text-decoration: underline;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
